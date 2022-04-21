@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container{
+    min-height: 100%;
+    width: 100%;
+}
+
+.content{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+    background-color:hsl(213, 19%, 18%);
+    min-height: 450px;
+    border-radius:1.5rem;
+
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    margin-left: 2rem;
+
+    
+   
+}
+
+.card-star{
+    margin-top: 2rem;
+    background-color:hsl(216, 12%, 8%) ;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+}
+
+.card-header h1{
+    color: white;
+    margin-top: -2.5rem;
+}
+
+.card-paragraph p{
+    margin-top: -4rem;
+    color: hsl(217, 12%, 63%);
+    margin-right: 4rem;
+    font-size:1rem;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: hsl(217, 12%, 63%);
+    margin-top: -2rem;
+}
+
+.five{
+    margin-right: 3rem;
+}
+
+.numbers{
+    background-color:hsl(216, 12%, 8%);
+    width: 3rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1.2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    
+}
+
+.submit{
+    align-self: center;
+    margin-top:-2rem;
+    
+}
+
+.submit button{
+    border: none;
+    min-width: 350px;
+    min-height: 50px;
+    margin-right: 2rem;
+    border-radius:2rem;
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.numbers:hover {
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit button:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+
+
+.numbers.active{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+
+
+
+.wrapper{
+    
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.main{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: rem;
+    background-color:hsl(213, 19%, 18%);
+    min-height: 450px;
+    border-radius:1.5rem;
+
+
+
+}
+
+.thank-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+  
+
+}
+
+.image {
+    margin-top: 2rem;
+    
+}
+
+.selected {
+    margin-top: -8rem;
+    background-color:hsl(216, 12%, 8%) ;
+    color:hsl(25, 97%, 53%);
+    width: 200px;
+    height: 40px;
+    padding-top: 0.5rem;
+    padding-left:1.5rem;
+    border-radius:2rem;
+}
+.thank-you {
+    margin-top: -8rem;
+    color: white;
+}
+
+
+
+
+.message{
+    margin-top: -8rem;
+}
+
+
+.message p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+}
+
